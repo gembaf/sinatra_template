@@ -7,5 +7,11 @@ gem 'slim'
 group :development, :test do
   gem 'sinatra-contrib'
   gem 'foreman'
+
+  # Test
+  gem 'rspec'
+  gem 'capybara'
+  gem 'rack-test'
+  gem 'poltergeist'
 end
 
