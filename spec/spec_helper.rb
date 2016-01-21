@@ -1,5 +1,6 @@
 require 'rspec'
 require 'capybara/rspec'
+require 'factory_girl'
 
 RSpec.configure do |config|
   require 'capybara/poltergeist'
@@ -9,6 +10,7 @@ RSpec.configure do |config|
   end
 
   config.include Capybara::DSL
+  config.include FactoryGirl::Syntax::Methods
 
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
