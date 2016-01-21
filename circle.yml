@@ -5,6 +5,8 @@ machine:
     version: 2.2.2
 
 test:
+  pre:
+    - "bundle exec rubocop"
   override:
     - "bundle exec rspec --color -f d"
 
