@@ -7,6 +7,7 @@ gem 'slim'
 group :development, :test do
   gem 'sinatra-contrib'
   gem 'foreman'
+  gem 'rubocop'
 
   # Test
   gem 'rspec'
