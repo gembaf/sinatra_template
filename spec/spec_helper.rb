@@ -1,6 +1,8 @@
 require 'rspec'
 require 'capybara/rspec'
 require 'factory_girl'
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
 
 RSpec.configure do |config|
   require 'capybara/poltergeist'
