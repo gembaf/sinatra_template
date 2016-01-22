@@ -1,3 +1,5 @@
 /vendor/bundler/
 /.bundle
 
+/.sass-cache
+
