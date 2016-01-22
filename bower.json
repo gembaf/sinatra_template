@@ -1,0 +1,20 @@
+{
+  "name": "sinatra_template",
+  "homepage": "https://github.com/gembaf/sinatra_template",
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}

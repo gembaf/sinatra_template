@@ -1,5 +1,10 @@
-/vendor/bundler/
+/vendor/bundler/**/*
+/vendor/assets/**/*
+!.keep
+
 /.bundle
 
 /.sass-cache
+
+/bower_components
 
