@@ -6,6 +6,7 @@ machine:
 
 test:
   pre:
+    - "bower install"
     - "bundle exec rubocop"
   override:
     - "bundle exec rspec --color -f d"
