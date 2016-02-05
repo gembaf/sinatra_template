@@ -6,6 +6,10 @@ AsciiComments:
 ClassAndModuleChildren:
   Enabled: false
 
+# クラスへのコメントがなくても許す
+Style/Documentation:
+  Enabled: false
+
 # ファイル末尾の改行を許可
 TrailingBlankLines:
   EnforcedStyle: final_blank_line
