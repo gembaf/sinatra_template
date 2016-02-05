@@ -13,3 +13,7 @@ $ git clone https://github.com/gembaf/sinatra_template.git your_app
 $ cd your_app
 $ bash init.sh
 ```
+
+- init.shの誘導に従ってユーザ名とリポジトリ名を入力する
+- sinatra_template内のユーザ名とリポジトリ名が入力したものに置き換わる
+- sinatra_templateのgitの履歴が削除されるので、新たなリポジトリとしてfirst commitする
