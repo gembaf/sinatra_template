@@ -1,5 +1,9 @@
 # sinatra_template
 
+## About
+
+- Sinatraを用いたアプリ開発の初期コスト低減のためのテンプレート
+
 ## Status
 
 [![Circle CI](https://circleci.com/gh/gembaf/sinatra_template.svg?style=svg)](https://circleci.com/gh/gembaf/sinatra_template)
