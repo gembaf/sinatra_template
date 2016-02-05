@@ -1,4 +1,4 @@
-# sinatra template
+# sinatra_template
 
 ## Status
 
